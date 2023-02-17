@@ -1,162 +1,183 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
-    font-family: 'Lato', sans-serif;
-    margin: 0 auto;
-    width: 75%;
-    text-align: center;
-    
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
 }
 
 .header h1 {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
-.image-container {   
-    clip-path: circle(50% at 50% 50%);
-    background-image: url('../img/profile1.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 450px;
-    width: 450px;
-    margin: 2rem auto;  
+.image-container {
+  clip-path: circle(50% at 50% 50%);
+  background-image: url("../img/profile1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  width: 450px;
+  margin: 2rem auto;
 }
 
 .navigation ul li {
-    border: 1px solid black;
-    border-radius: 5px;
-    display: inline-block;
-    font-size: 2rem;
-    padding: 1rem;
-    width: 16rem;
-    margin: 3rem 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1rem;
+  width: 16rem;
+  margin: 3rem 0;
 }
 
 .navigation ul li:not(:last-child) {
-    margin-right: 6rem;
+  margin-right: 6rem;
 }
 
-
 .main-container {
-    margin: 0 auto;
-    width: 75%;
+  margin: 0 auto;
+  width: 75%;
 }
 
 .main-container div {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .main-container h1 {
-    margin-bottom: 5rem;
+  margin-bottom: 5rem;
 }
 
 .main-container p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .footer {
-    font-size: 2rem;
-    padding: 2rem;
+  font-size: 2rem;
+  padding: 2rem;
 }
 
 .footer ul {
-    list-style: none;
-    margin-bottom: 3rem;
+  list-style: none;
+  margin-bottom: 3rem;
 }
 
 .footer ul li {
-    display: inline-block;
-    margin: 2rem;
+  display: inline-block;
+  margin: 2rem;
 }
 
 .footer ul a {
-    color: #777;
-    text-decoration: none;
+  color: #777;
+  text-decoration: none;
 }
-
 
 @media (min-width: 480px) {
-    /*muuda image-container taustapilti*/
-    /*muuda dokumendi taustavärvi*/
-    /*muuda dokumendi tekstivärvi*/
-    /*ära unusta ka raamjoonesid*/
+  /*muuda image-container taustapilti*/
+  /*muuda dokumendi taustavärvi*/
+  /*muuda dokumendi tekstivärvi*/
+  /*ära unusta ka raamjoonesid*/
+  .image-container {
+    background-image: url("../img/profile4.jpg");
+    margin: 0 auto;
+  }
 
-    .container {
-        width: 100%;
-    }
-    
+  .container {
+    background-color: #183a1d;
+    color: #fefbe9;
+    width: 100%;
+  }
 
-    .navigation ul li {
-        display: block;
-        font-size: 1rem;
-        margin: 0;
-        width: 100%;
-    }
-    .navigation ul li:not(:last-child) {
-        border-bottom: none;
-    }
-    
+  .navigation ul li {
+    display: block;
+    font-size: 1rem;
+    margin: 0;
+    width: 100%;
+    border-color: bisque;
+  }
+  .navigation ul li:not(:last-child) {
+    border-bottom: none;
+  }
 
-    .main-container {
-        padding: 0.75rem;
-        width: 100%;
-    }
+  .main-container {
+    padding: 0.75rem;
+    width: 100%;
+  }
 
-    .main-container h1 {
-        margin: 1rem auto;
-    }
-    
+  .main-container h1 {
+    margin: 1rem auto;
+  }
 }
-
 
 @media (min-width: 768px) {
-
-    /*muuda image-container taustapilti*/
-    /*muuda dokumendi taustavärvi*/
-    /*muuda dokumendi tekstivärvi*/
-    /*ära unusta ka raamjoonesid*/
+  /*muuda image-container taustapilti*/
+  /*muuda dokumendi taustavärvi*/
+  /*muuda dokumendi tekstivärvi*/
+  /*ära unusta ka raamjoonesid*/
+  .image-container {
+    background-image: url("../img/profile3.jpg");
+  }
+  .container {
+    background-color: #4d455d;
+    color: #7db9b6;
+  }
+  .navigation ul li {
+    border-color: #7db9b6;
+  }
 }
 
-
-@media (min-width: 1024px){
-        
-    /*muuda image-container taustapilti*/
-    /*muuda dokumendi taustavärvi*/
-    /*muuda dokumendi tekstivärvi*/
-    /*ära unusta ka raamjoonesid*/
+@media (min-width: 1024px) {
+  /*muuda image-container taustapilti*/
+  /*muuda dokumendi taustavärvi*/
+  /*muuda dokumendi tekstivärvi*/
+  /*ära unusta ka raamjoonesid*/
+  .image-container {
+    background-image: url("../img/profile2.jpg");
+  }
+  .container {
+    background-color: #698269;
+    color: #f1dbbf;
+  }
+  .navigation ul li {
+    border-color: #f1dbbf;
+  }
 }
 
+@media (min-width: 1200px) {
+  /*muuda image-container taustapilti*/
+  /*muuda dokumendi taustavärvi*/
+  /*muuda dokumendi tekstivärvi*/
+  /*ära unusta ka raamjoonesid*/
+  .header h1 {
+    margin: 3rem auto;
+  }
+  .navigation ul li {
+    display: inline-block;
+    width: 16rem;
+  }
 
-@media (min-width: 1200px){
+  .navigation ul li:not(:last-child) {
+    border-bottom: 1px solid;
+    margin-right: 4rem;
+  }
 
-    /*muuda image-container taustapilti*/
-    /*muuda dokumendi taustavärvi*/
-    /*muuda dokumendi tekstivärvi*/
-    /*ära unusta ka raamjoonesid*/
-    .header h1 {
-        margin: 3rem auto;
-    }
-    .navigation ul li {
-        display: inline-block;
-        width: 16rem;
-    }
-    
-    .navigation ul li:not(:last-child) {
-        border-bottom: 1px solid black;
-        margin-right: 4rem;
-    }
-
-    .main-container {
-        width: 75%;
-    }
-
+  .main-container {
+    width: 75%;
+  }
+  .image-container {
+    background-image: url("../img/profile1.jpg");
+  }
+  .container {
+    background-color: #243763;
+    color: #ff6e31;
+  }
+  .navigation ul li {
+    border-color: #ff6e31;
+  }
 }
-
-
